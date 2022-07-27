@@ -9,7 +9,17 @@
     <title>Odin Tic Tac Toe</title>
 </head>
 <body>
-    <h1>Odin Tic Tac Toe</h1>
+    <div id="page-container">
+        <h1>Odin Tic Tac Toe</h1>
+        <form action="/">
+            <label for="player-name">Please enter a name. </label>
+                <input type="text" name="player-name" id="playerName" required maxlength="10">
+            <button id="start-new-game-button">Start new Game</button>
+        </form>
+        <div id="game-board"></div>
+        <div id="message-container"></div>
+    </div>
+
     
 </body>
 </html>
